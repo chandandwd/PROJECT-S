@@ -127,11 +127,10 @@ const WelcomePage = () => {
 
         {/* Footer */}
         <motion.div
-          className="site-footer"
+          className="welcome-footer site-footer"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.6 }}
-          style={{ position: 'absolute', bottom: '1rem', left: 0, right: 0 }}
         >
           Made with love, just for you. 💕
         </motion.div>
